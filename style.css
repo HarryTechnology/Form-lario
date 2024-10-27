@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* BARRA LATERAL */
+.barralateral h2 {
+  font-size: 65px;
+}
+
+.barralateral h4 {
+  font-size: 20px;
+  font-weight: 300;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.barralateral button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 100px;
+  width: 100px;
+  margin-top: 5px;
+}
+
+.barralateral {
+  background-color: #0d92f4;
+  flex-direction: column;
+  width: 800px;
+  height: 945px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.barralateral .text1 {
+  color: white;
+}
+
+/* CADASTRO */
