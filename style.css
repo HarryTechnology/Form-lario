@@ -1,19 +1,104 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Montserrat", sans-serif;
+.Login {
+  display: flex;
 }
 
-/* BARRA LATERAL */
-.barralateral h2 {
-  font-size: 65px;
+/* CADASTRO */
+
+.cadastro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  flex: 1.5;
+  /* border: 2px solid red; */
 }
 
-.barralateral h4 {
-  font-size: 20px;
-  font-weight: 300;
+.cadastro h2 {
+  color: #0d92f4;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.icons {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  left: 1.5rem;
+  opacity: 0.5;
+  left: 5px;
+  color: #0d92f4;
+  top: 20px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.cadastro input {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  opacity: 0.8;
+  border-radius: 50px;
+  padding-left: 20px;
+  height: 25px;
   width: 250px;
-  margin: 0 auto;
+  outline: none;
+  color: rgba(0, 0, 0, 0.5);
+  /* outline: #0d92f4; */
+  /* border: transparent; */
+  /* margin: 50px; */
+}
+
+.ancora {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 13px;
+  display: flex;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-color: transparent;
+}
+
+button {
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; */
+
+  background-color: #0d92f4;
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: none;
+  color: white;
+}
+
+.btn {
+  display: flex;
+  margin-left: 30%;
+}
+
+.Cadastro {
+  display: flex;
+}
+
+button {
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; */
+
+  background-color: #0d92f4;
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: none;
+  color: white;
 }
 
 .barralateral button {
@@ -28,12 +113,12 @@
 .barralateral {
   background-color: #0d92f4;
   flex-direction: column;
-  width: 800px;
   height: 945px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+  flex: 1;
 }
 
 .barralateral .text1 {
@@ -41,3 +126,103 @@
 }
 
 /* CADASTRO */
+
+.Cadastra {
+  color: #0d92f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  flex: 1.5;
+}
+
+.cadastra .botao {
+  color: white;
+}
+
+.Cadastra input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 50px;
+  border: 1px solid #1e1e1e31;
+  text-decoration: none;
+  height: 25px;
+  width: 250px;
+  outline: none;
+  opacity: 5;
+  padding-left: 20px;
+  margin-bottom: 1px;
+  background-color: transparent;
+}
+
+.Cadastra .icones {
+  left: 100px;
+  right: 100px;
+}
+
+.Cadastra .icones {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  top: 21px;
+  left: 5px;
+  opacity: 0.5;
+}
+
+.Cadastra h2 {
+  font-size: 50px;
+}
+
+/* Reset-Senha */
+
+.reset-senha {
+  color: #0d92f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* flex-direction: column; */
+  flex: 1.5;
+}
+
+.reset-senha-funcoes {
+  flex-direction: column;
+  flex: 1.5;
+}
+
+.reset-senha h2 {
+  font-size: 50px;
+}
+
+.reset-senha .tds-inputs input {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 25px;
+  width: 250px;
+  outline: none;
+  margin-left: 40%;
+  background-color: transparent;
+  opacity: 5;
+  border-radius: 50px;
+  border: 1px solid #1e1e1e31;
+  margin-top: 10px;
+  margin-bottom: 1px;
+}
+
+.text1 h2 {
+  font-size: 40px;
+  width: 400px;
+}
+
+.text1 h4 {
+  font-size: 20px;
+  width: 320px;
+}
