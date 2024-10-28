@@ -9,6 +9,8 @@ no meu portfolio que esta em Desenvolvimento🚀<br>
 
 - <a href="#️-layout"> Layout
 
+- <a href="#-tecnologias-usadas"> Tecnolofias Usadas
+
 ### 🎲 Funções Do Site
 
 - [x] Cadastro do Usuário
@@ -17,10 +19,10 @@ no meu portfolio que esta em Desenvolvimento🚀<br>
 
 ### 🖼️ Layout
 
-<img width="350px"  src="./layout/Pagina De Cadastro.png">
+<img align="center" width="350px" target="_blank" src="./layout/Pagina De Cadastro.png">
 
-<img width="350px"  src="./layout/Pagina De Login.png">
+<img align="center" width="350px" target="_blank" src="./layout/Pagina De Login.png">
 
-<img width="350px"  src="./layout/Senha.png">
+<img  align="center" width="350px" target="_blank" src="./layout/Senha.png">
 
 ### 🤖 Tecnologias Usadas
